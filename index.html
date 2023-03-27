@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DT Renovation</title>
+   <link rel="stylesheet" href="https://kit.fontawesome.com/be5cf1c284.css" crossorigin="anonymous">
+   <link rel="stylesheet" href="./styles/bootstrap.min.css">
+   <link rel="stylesheet" href="./styles/normalize.css">
+   <link rel="stylesheet" href="./styles/style.css">
+   <link rel="stylesheet" href="./styles/media.css">
+   <link rel="stylesheet" href="./styles/576.css">
+   <link rel="stylesheet" href="./styles/376.css">
+   <link rel="stylesheet" href="./styles/320.css">
+</head>
+
+<body>
+   <!-- header + navbar + mobile navbar -->
+   <header class="header">
+      <div class="container">
+         <nav class="header-nav">
+            <div class="header-nav__logo">
+               <a class="header-nav__logo-brand" id="brand" href="#top">DT.renovation</a>
+            </div>
+            <div class="header-nav__navbar" id="nav">
+               <div class="header-nav__navbar-item">
+                  <a class="nav-link" href="#top" id="home">Home</a>
+               </div>
+               <div class="header-nav__navbar-item">
+                  <a class="nav-link" href="#team">Team</a>
+               </div>
+               <div class="header-nav__navbar-item">
+                  <a class="nav-link" href="#services">Services</a>
+               </div>
+               <div class="header-nav__navbar-item">
+                  <a class="nav-link" href="#background">About</a>
+               </div>
+               <div class="header-nav__navbar-item">
+                  <a class="nav-link" href="#footer">Contact Us</a>
+               </div>
+               <div class="header-nav__callback mobile">
+                  <a class="header-nav__callback-phone" href="tel:9193961489">(919)396-1489</a>
+               </div>
+            </div>
+            <div class="header-nav__callback">
+               <a class="header-nav__callback-phone" href="tel:9193961489">(919)396-1489</a>
+            </div>
+            <button id="nav-btn" class="header-nav__button">
+               <img id="nav-btn-img" src="./src/images/icons/nav-open.svg" alt="">
+            </button>
+         </nav>
+      </div>
+   </header>
+
+   <!-- main -->
+   <div class="empty-header"></div>
+   <div class="main">
+      <!-- main hero slider -->
+      <div class="hero-slider">
+         <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" loop="true"
+            autoplay="true" keyboard="true" autoplay-delay="4500" speed="1000">
+            <swiper-slide>
+               <img src="./src/images/bg/carpentry.jpg" />
+               <div class="hero-slider__slogan">
+                  <h1 class="hero-slider__slogan-header">
+                     Carpentry
+                  </h1>
+                  <h2 class="hero-slider__slogan-text">We can do small jobs that do not require a license</h2>
+                  <div class="hero-slider__slogan-buttons">
+                     <button class="hero-slider__gallery">View Gallery</button>
+                     <button class="hero-slider__order">Order now!</button>
+                  </div>
+               </div>
+               <div class="hero-slider__slogan-arrow">
+                  <a href="#services" class="d-none d-lg-block"><img src="./src/images/icons/arrow.png" alt=""></a>
+               </div>
+            </swiper-slide>
+            <swiper-slide>
+               <img src="./src/images/bg/plumbing.jpg" />
+               <div class="hero-slider__slogan">
+                  <h1 class="hero-slider__slogan-header">
+                     Plumbing
+                  </h1>
+                  <h2 class="hero-slider__slogan-text">We can do small jobs that do not require a license</h2>
+                  <div class="hero-slider__slogan-buttons">
+                     <button class="hero-slider__gallery">View Gallery</button>
+                     <button class="hero-slider__order">Order now!</button>
+                  </div>
+               </div>
+               <div class="hero-slider__slogan-arrow">
+                  <a href="#services" class="d-none d-lg-block"><img src="./src/images/icons/arrow.png" alt=""></a>
+               </div>
+            </swiper-slide>
+            <swiper-slide>
+               <img src="./src/images/bg/electrical.jpg" />
+               <div class="hero-slider__slogan">
+                  <h1 class="hero-slider__slogan-header">
+                     Electrical
+                  </h1>
+                  <h2 class="hero-slider__slogan-text">We can do small jobs that do not require a license</h2>
+                  <div class="hero-slider__slogan-buttons">
+                     <button class="hero-slider__gallery">View Gallery</button>
+                     <button class="hero-slider__order">Order now!</button>
+                  </div>
+               </div>
+               <div class="hero-slider__slogan-arrow">
+                  <a href="#services" class="d-none d-lg-block"><img src="./src/images/icons/arrow.png" alt=""></a>
+               </div>
+            </swiper-slide>
+            <swiper-slide>
+               <img src="./src/images/bg/painting.jpg" />
+               <div class="hero-slider__slogan">
+                  <h1 class="hero-slider__slogan-header">
+                     Painting
+                  </h1>
+                  <h2 class="hero-slider__slogan-text">We can do small jobs that do not require a license</h2>
+                  <div class="hero-slider__slogan-buttons">
+                     <button class="hero-slider__gallery">View Gallery</button>
+                     <button class="hero-slider__order">Order now!</button>
+                  </div>
+               </div>
+               <div class="hero-slider__slogan-arrow">
+                  <a href="#services" class="d-none d-lg-block"><img src="./src/images/icons/arrow.png" alt=""></a>
+               </div>
+            </swiper-slide>
+            <swiper-slide>
+               <img src="./src/images/bg/maintenance.jpg" />
+               <div class="hero-slider__slogan">
+                  <h1 class="hero-slider__slogan-header">
+                     Maintenance
+                  </h1>
+                  <h2 class="hero-slider__slogan-text">We can do small jobs that do not require a license</h2>
+                  <div class="hero-slider__slogan-buttons">
+                     <button class="hero-slider__gallery">View Gallery</button>
+                     <button class="hero-slider__order">Order now!</button>
+                  </div>
+               </div>
+               <div class="hero-slider__slogan-arrow">
+                  <a href="#services" class="d-none d-lg-block"><img src="./src/images/icons/arrow.png" alt=""></a>
+               </div>
+            </swiper-slide>
+            <swiper-slide>
+               <img src="./src/images/bg/handyman.jpg" />
+               <div class="hero-slider__slogan">
+                  <h1 class="hero-slider__slogan-header">
+                     Handyman
+                  </h1>
+                  <h2 class="hero-slider__slogan-text">We can do small jobs that do not require a license</h2>
+                  <div class="hero-slider__slogan-buttons">
+                     <button class="hero-slider__gallery">View Gallery</button>
+                     <button class="hero-slider__order">Order now!</button>
+                  </div>
+               </div>
+               <div class="hero-slider__slogan-arrow">
+                  <a href="#services" class="d-none d-lg-block"><img src="./src/images/icons/arrow.png" alt=""></a>
+               </div>
+            </swiper-slide>
+         </swiper-container>
+      </div>
+
+      <!-- team -->
+      <section class="team" id="team">
+         <div class="team-header">
+            <h2 class=" team-header__title">Our Team</h2>
+         </div>
+         <div class="team-item">
+            <div class="team-item__polaroid">
+               <a href="">
+                  <img src="./src/images/team/1mini.jpg" />
+                  <p class="team-item__text">Dmitry Tkach</p>
+               </a>
+            </div>
+         </div>
+         <div class="team-item">
+            <div class="team-item__polaroid">
+               <a href="">
+                  <img src="./src/images/team/2mini.jpg" />
+                  <p class="team-item__text">Dmitry Tkach</p>
+               </a>
+            </div>
+         </div>
+         <div class="team-item">
+            <div class="team-item__polaroid">
+               <a href="">
+                  <img src="./src/images/team/3mini.jpg" />
+                  <p class="team-item__text">Dmitry Tkach</p>
+               </a>
+            </div>
+         </div>
+         <div class="team-item">
+            <div class="team-item__polaroid">
+               <a href="">
+                  <img src="./src/images/team/4mini.jpg" />
+                  <p class="team-item__text">Dmitry Tkach</p>
+               </a>
+            </div>
+         </div>
+      </section>
+
+      <!-- services -->
+      <section class="services" id="services">
+         <div class="services-header">
+            <h2 class="services-header__title">Our Services</h2>
+            <p class="services-header__text">We can do small jobs that do not require a license</p>
+         </div>
+         <div class="container">
+            <div class="services-item__list">
+               <div class="services-item">
+                  <div class="services-item__img-wrap">
+                     <img src="./src/images/icons/0carpentry.png" alt="carpentry" class="services-item__img">
+                  </div>
+                  <h3 class="services-item__heading">Carpentry</h3>
+                  <p class="services-item__text">
+                     We offer carpentry services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.
+                  </p>
+                  <a href="!#" class="services-item__gallery">View Gallery ></a>
+               </div>
+               <div class="services-item">
+                  <div class="services-item__img-wrap">
+                     <img src="./src/images/icons/0plumbing.png" alt="carpentry" class="services-item__img">
+                  </div>
+                  <h3 class="services-item__heading">Plumbing</h3>
+                  <p class="services-item__text">
+                     We offer carpentry services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.
+                  </p>
+                  <a href="!#" class="services-item__gallery">View Gallery ></a>
+               </div>
+               <div class="services-item">
+                  <div class="services-item__img-wrap">
+                     <img src="./src/images/icons/0Electrical.png" alt="carpentry" class="services-item__img">
+                  </div>
+                  <h3 class="services-item__heading">Electrical</h3>
+                  <p class="services-item__text">
+                     We offer carpentry services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.
+                  </p>
+                  <a href="!#" class="services-item__gallery">View Gallery ></a>
+               </div>
+               <div class="services-item">
+                  <div class="services-item__img-wrap">
+                     <img src="./src/images/icons/0painting.png" alt="carpentry" class="services-item__img">
+                  </div>
+                  <h3 class="services-item__heading">Painting</h3>
+                  <p class="services-item__text">
+                     We offer carpentry services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.
+                  </p>
+                  <a href="!#" class="services-item__gallery">View Gallery ></a>
+               </div>
+               <div class="services-item">
+                  <div class="services-item__img-wrap">
+                     <img src="./src/images/icons/0maintenance.png" alt="carpentry" class="services-item__img">
+                  </div>
+                  <h3 class="services-item__heading">Maintenance</h3>
+                  <p class="services-item__text">
+                     We offer carpentry services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.
+                  </p>
+                  <a href="!#" class="services-item__gallery">View Gallery ></a>
+               </div>
+            </div>
+
+
+            <!-- <div class="row justify-content-center align-items-end mb-5">
+               <div class="col-xl-2 col-md-6 col-sm-12 mb-5">
+                  <div class="m-logo mb-2">
+                     <img class="m-logo-pic mb-3" src="./src/images/icons/carpentry.png" alt="Carpentry">
+                  </div>
+                  <h4 class="mb-3">Carpentry</h4>
+                  <p>We offer carpentry services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.</p>
+                  <a href="#">View Gallery ></a>
+               </div>
+               <div class="col-xl-2 col-md-6 col-sm-12 mb-5">
+                  <div class="m-logo mb-2">
+                     <img class="m-logo-pic mb-2" src="./src/images/icons/plumbing.png" alt="Plumbing">
+                  </div>
+                  <h4 class="mb-3">Plumbing</h4>
+                  <p>We offer plumbing services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.</p>
+                  <a href="#">View Gallery ></a>
+               </div>
+               <div class="col-xl-2 col-md-6 col-sm-12 mb-5">
+                  <div class="m-logo mb-2">
+                     <img class="m-logo-pic mb-2" src="./src/images/icons/electrical.png" alt="Electrical">
+                  </div>
+                  <h4 class="mb-3">Electrical</h4>
+                  <p>We offer electrical services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.</p>
+                  <a href="#">View Gallery ></a>
+               </div>
+               <div class="col-xl-2 col-md-6 col-sm-12 mb-5">
+                  <div class="m-logo mb-2">
+                     <img class="m-logo-pic mb-3" src="./src/images/icons/painting.png" alt="Painting">
+                  </div>
+                  <h4 class="mb-3">Painting</h4>
+                  <p>We offer painting services on your property.<br />Click "View Gallery" below to see the gallery
+                     of our works and working process.</p>
+                  <a href="#">View Gallery ></a>
+               </div>
+               <div class="col-xl-2 col-md-6 col-sm-12 mb-5">
+                  <div class="m-logo mb-2">
+                     <img class="m-logo-pic mb-2" src="./src/images/icons/maintenance.png" alt="Maintenance">
+                  </div>
+                  <h4 class="mb-3">Maintenance</h4>
+                  <p>We offer maintenance services on your property. <br />Click "View Gallery" below to see the gallery
+                     of our works and working process.</p>
+                  <a href="#">View Gallery ></a>
+               </div>
+            </div> -->
+         </div>
+      </section>
+
+      <!-- background -->
+      <section class="background" id="background">
+         <div class="background-header">
+            <h2 class="background-header__title">a little background</h2>
+         </div>
+         <div class="container">
+            <img src="./src/images/team/1.jpg" alt="" class="background-img">
+            <p class="background-text">
+               DT.renovation is a locally owned and operated business based in Cary, North Carolina, serving the entire
+               Research Triangle area. <br /> We specialize in cosmetic reconstruction, socket replacement,painting,
+               bathroom
+               remodeling, floor laying, and general maintenance of houses. <br />Our company is led by the experienced
+               and
+               dedicated professional, Dmytro Tkach, with a passion for creating beautiful and functional living spaces.
+               We're not a big corporation, but we pride ourselves on providing personalized, top-quality work and
+               excellent customer service to our valued clients in the community. Whether you're looking to update
+               a
+               single room or your entire house, our team of skilled professionals will work closely with you to bring
+               your vision to life. <br />Trust us to take care of all your home reconstruction needs in the Research
+               Triangle
+               area.
+            </p>
+         </div>
+      </section>
+
+      <!-- testimonials -->
+      <section class="testimonials">
+         <div class="testimonials-header">
+            <h2 class="testimonials-header__title">what our customers say?</h2>
+         </div>
+         <div class="container">
+            <div class="testimonials-item__list">
+
+               <figure class="testimonials-item">
+                  <figcaption>
+                     <blockquote>
+                        <p>I can't thank the Dmytro's Tkach team enough for the amazing job they did on my bathroom
+                           remodel. From start to finish, they were professional, friendly, and truly went above and
+                           beyond
+                           to make sure I was happy with the final result. The workmanship was top-notch and the
+                           attention
+                           to detail was impressive. I highly recommend this company to anyone looking for high-quality,
+                           professional
+                           home reconstruction services.</p>
+                     </blockquote>
+                     <h3>Farrel Jarett</h3>
+                  </figcaption>
+               </figure>
+               <figure class="testimonials-item">
+                  <figcaption>
+                     <blockquote>
+                        <p>Dmytro's Tkach team did an incredible job on our home renovation project. Their team was
+                           friendly, professional, and always willing to answer any questions we had. They kept us
+                           informed
+                           throughout the entire process and were always mindful and respectful of our property. The
+                           work
+                           they did exceeded our expectations and we are so happy with the final result. We highly
+                           recommend Dmytro's Tkach team for all your home reconstruction needs.</p>
+                     </blockquote>
+                     <h3>Brennan Carlson</h3>
+                  </figcaption>
+               </figure>
+               <figure class="testimonials-item">
+                  <figcaption>
+                     <blockquote>
+                        <p>Dmytro's Tkach team did an incredible job on our home renovation project. Their team was
+                           friendly, professional, and always willing to answer any questions we had. They kept us
+                           informed
+                           throughout the entire process and were always mindful and respectful of our property. The
+                           work
+                           they did exceeded our expectations and we are so happy with the final result. We highly
+                           recommend Dmytro's Tkach team for all your home reconstruction needs.</p>
+                     </blockquote>
+                     <h3>Brennan Carlson</h3>
+                  </figcaption>
+               </figure>
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <!-- footer + form -->
+   <footer class="footer" id="footer">
+      <div class="footer-header">
+         <h2 class=" footer-header__title">GET A FREE QUOTE!</h2>
+         <p class=" footer-header__text">Feel free to contact us with any inquiries you may have! <br />Either fill out
+            the form below or call
+            us!</p>
+      </div>
+      <div class="container">
+         <div class="footer-contacts">
+            <div class="footer-contacts__call footer-items">
+               <h3 class="footer-contacts__call-title">Call Us</h3>
+               <p class="footer-contacts__call-text">(919) 396-1489</p>
+            </div>
+            <div class="footer-contacts__email footer-items">
+               <h3 class="footer-contacts__email-title">Email us</h3>
+               <p class="footer-contacts__email-text">dtrenovation101@gmail.com</p>
+            </div>
+            <div class="footer-contacts__areas footer-items">
+               <h3 class="footer-contacts__areas-title">Areas Covered</h3>
+               <p class="footer-contacts__areas-text">NC, Research Triangle</p>
+            </div>
+            <div class="footer-contacts__social footer-items">
+               <h3 class="footer-contacts__social-title">Follows us on</h3>
+               <div class="footer-contacts__social-wrap">
+                  <div class="footer-social__tiktok">
+                     <a href="https://www.tiktok.com/@dt.renovation"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                  <div class="footer-social__facebook">
+                     <a href="https://www.facebook.com/DT.RENOVATION.NC"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="footer-social__instagram">
+                     <a href="https://www.instagram.com/dt.renovation/"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         <div class="footer-wrap">
+            <div class="footer-form">
+               <form id="order-form">
+                  <div class="form-group">
+                     <label id="name-label" for="name"></label>
+                     <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"
+                        required />
+                  </div>
+                  <div class="form-group">
+                     <label id="email-label" for="email"></label>
+                     <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email"
+                        required />
+                  </div>
+                  <div class="form-group">
+                     <select id="dropdown" name="role" class="form-control" required>
+                        <option disabled selected value>Select service you need</option>
+                        <option value="Carpentry">Carpentry</option>
+                        <option value="Plumbing">Plumbing</option>
+                        <option value="Electrical">Electrical</option>
+                        <option value="Painting">Painting</option>
+                        <option value="Maintenance">Maintenance</option>
+                        <option value="Handyman">Handyman</option>
+                        <option value="Other">Other</option>
+                     </select>
+                  </div>
+
+                  <div class="form-group">
+                     <textarea id="comments" class="input-textarea" name="comment" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                     <button type="submit" id="submit" class="submit-button">
+                        Get a job done
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- scripts -->
+   <script src="./scripts/script.js"></script>
+   <script src="https://kit.fontawesome.com/be5cf1c284.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
